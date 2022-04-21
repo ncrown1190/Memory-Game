@@ -147,7 +147,7 @@ function cardFlipped() {
     setTimeout(checkForCardMatch, 100);
   }
 }
-let counter = 5;
+let counter = 10;
 const timeOut = () => {
   let interval = setInterval(function () {
     document.getElementById("counter").innerHTML = counter;
