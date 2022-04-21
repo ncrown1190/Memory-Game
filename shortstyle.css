@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(89, 101, 71);
+}
+.cards-div {
+  padding: 50px;
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+}
+#counter {
+  color: red;
+  font-weight: bolder;
+}

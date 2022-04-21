@@ -1,0 +1,9 @@
+body {
+  background-color: beige;
+}
+.cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 400px;
+}
