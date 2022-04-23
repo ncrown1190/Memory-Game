@@ -157,11 +157,12 @@ const timeOut = () => {
       document.getElementById("counter").innerHTML = "Done";
       // or...
       alert("You're out of time! Please stop");
+      //disable pointer events
+      document.querySelector(".cards-div").style.pointerEvents = "none";
     }
   }, 10000);
   clearTimeout();
 };
 
 createBoard();
-//document.querySelector("#counter").addEventListener("click", timeOut);
 timeOut();
