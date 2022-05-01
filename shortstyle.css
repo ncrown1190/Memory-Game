@@ -1,15 +1,32 @@
 body {
-  background-color: rgb(89, 101, 71);
+  background-color: rgb(216, 220, 210);
+}
+.info {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  /* color: red; */
 }
 .cards-div {
-  padding-left: 80px;
+  padding-left: 25%;
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
-  height: 600px;
+  width: 640px;
+  height: 660px;
+}
+img {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 #counter {
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+  padding: 0px;
   color: red;
   font-weight: bolder;
+}
+h3 {
+  padding-left: 25%;
 }

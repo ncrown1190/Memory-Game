@@ -64,6 +64,9 @@ const arrayOfCards = [
     img: "assets/angular.png",
   },
 ];
+document.querySelector("#counter").addEventListener("click", () => {
+  document.querySelector(".cards-div").style.pointerEvents = "auto";
+});
 
 // randomizing the card array
 let ar1 = arrayOfCards.sort(() => 0.5 - Math.random());
@@ -147,7 +150,8 @@ function cardFlipped() {
     setTimeout(checkForCardMatch, 100);
   }
 }
-let counter = 10;
+
+let counter = 6;
 const timeOut = () => {
   let interval = setInterval(function () {
     document.getElementById("counter").innerHTML = counter;
@@ -160,7 +164,7 @@ const timeOut = () => {
       //disable pointer events
       document.querySelector(".cards-div").style.pointerEvents = "none";
     }
-  }, 10000);
+  }, 10000); //10secons
   clearTimeout();
 };
 
