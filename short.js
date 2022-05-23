@@ -154,7 +154,7 @@ function cardFlipped() {
 let counter = 6;
 const timeOut = () => {
   let interval = setInterval(function () {
-    document.getElementById("counter").innerHTML = counter;
+    document.getElementById("counter").innerHTML = `Timer: ${counter}`;
     counter--;
     if (counter === 0) {
       clearInterval(interval);
